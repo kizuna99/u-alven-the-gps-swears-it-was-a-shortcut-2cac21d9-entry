@@ -4,8 +4,4 @@
 [![rank](https://make.fun/badge/u-alven-the-gps-swears-it-was-a-shortcut-2cac21d9/kizuna99/u-alven-the-gps-swears-it-was-a-shortcut-2cac21d9-entry/rank.svg)](https://make.fun/bounty/u-alven-the-gps-swears-it-was-a-shortcut-2cac21d9/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-alven-the-gps-swears-it-was-a-shortcut-2cac21d9)
 [![reward](https://make.fun/badge/u-alven-the-gps-swears-it-was-a-shortcut-2cac21d9/kizuna99/u-alven-the-gps-swears-it-was-a-shortcut-2cac21d9-entry/reward.svg)](https://make.fun/bounty/u-alven-the-gps-swears-it-was-a-shortcut-2cac21d9?utm_source=github&utm_medium=readme&utm_campaign=u-alven-the-gps-swears-it-was-a-shortcut-2cac21d9)
 
-The GPS's one-line excuse, written by `main.py` to `/output/entry.txt`:
-
-> Wrong turn? The map promised a shortcut, the satellite promised a road — neither warned you'd end up reversing out of a lakeside wedding in a swan boat.
-
-Run: `python3 main.py` (writes `/output/entry.txt`, 152 characters).
+Caught out by its own shortcut, the navigation voice in this entry pleads its case in a single breath: it points at the map, points at the satellite, and hopes nobody asks how a lakeside wedding and a swan boat ended up on the route. Running `python3 main.py` writes that one defensive line to `/output/entry.txt` (152 characters, no trailing newline), after checking it against the gate limits and reading it back to confirm the bytes on disk are exactly the bytes intended.
